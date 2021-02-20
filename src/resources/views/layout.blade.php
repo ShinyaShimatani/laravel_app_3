@@ -19,7 +19,9 @@
     <body class="vh-100 d-flex justify-content-center text-center">
             <div class="w-75 mt-3">
                 <div class="text-black-50 text-left border-bottom mt-5">
-                    ジム利用者 管理画面
+                    ジム利用者 管理画面<br>
+                    ～従業員の皆様へ～<br>
+                    当ジムのモットー "嘆きよりも、ユーモアを" で本日もどうぞ宜しくお願いします<br>
                 </div>
 
                 <div>

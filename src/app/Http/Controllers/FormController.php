@@ -9,11 +9,12 @@ use Validator;
 
 class FormController extends Controller
 {
-    public $formItems = ["name", "gender", "age", "email", "course" , "demand"];
+    public $formItems = ["name", "gender", "age", "disease", "email", "course" , "demand"];
 
 	public $validator = [
 		"name" => "required|string|max:20",
         "gender" => "required|string",
+        "disease" => "required|string",
         "email" => "required|string|max:40",
         "course" => "required|string|max:20",
         "demand" => "required|string|max:100"
@@ -31,6 +32,7 @@ class FormController extends Controller
          $member->name = $request->name;
          $member->gender = $request->gender;
          $member->age = $request->age;
+         $member->disease = $request->disease;
          $member->email = $request->email;
          $member->course = $request->course;
          $member->demand = $request->demand;

@@ -38,6 +38,11 @@
     </div>
 
     <div class="form-group">
+    <label for="disease ">基礎疾患</label>
+    <input type="text" name="disease" class="form-control">
+    </div>
+
+    <div class="form-group">
     <label for="email">メールアドレス</label>
     <input type="text" name="email" class="form-control">
     </div>

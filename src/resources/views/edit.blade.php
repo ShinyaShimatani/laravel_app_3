@@ -17,6 +17,9 @@
  <label>年齢</label>
  <textarea name="age" class="form-control" type="text" rows="1">{{$member->age}}</textarea>
 
+ <label>基礎疾患</label>
+ <textarea name="disease" class="form-control" type="text" rows="1">{{$member->disease}}</textarea>
+
  <label>メールアドレス</label>
  <textarea name="email" class="form-control" type="text" rows="1">{{$member->email}}</textarea>
 

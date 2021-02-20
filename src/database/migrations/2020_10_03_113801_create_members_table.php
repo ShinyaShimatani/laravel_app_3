@@ -18,6 +18,7 @@ class CreateMembersTable extends Migration
             $table->string('name');
             $table->string('gender');
             $table->string('age');
+            $table->string('disease');
             $table->string('email');
             $table->string('course');
             $table->string('demand','100');

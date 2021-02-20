@@ -17,6 +17,7 @@
         <th>名前</th>
         <th>性別</th>
         <th>年齢</th>
+        <th>基礎疾患</th>
         <th>メールアドレス</th>
         <th>受講コース</th>
         <th>当ジムへの要望</th>
@@ -30,6 +31,7 @@
             <td>{{$member->name}}</td>
             <td>{{$member->gender}}</td>
             <td>{{$member->age}}</td>
+            <td>{{$member->disease}}</td>
             <td>{{$member->email}}</td>
             <td>{{$member->course}}</td>
             <td>{{$member->demand}}</td>

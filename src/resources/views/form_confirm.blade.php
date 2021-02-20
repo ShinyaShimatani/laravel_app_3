@@ -21,6 +21,11 @@
                 {{ $age }}
         </div>
 
+        <label>基礎疾患</label>
+        <div>
+                {{ $disease }}
+        </div>
+
         <label>メールアドレス</label>
         <div>
                 {{ $email }}

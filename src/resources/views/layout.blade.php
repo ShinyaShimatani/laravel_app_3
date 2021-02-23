@@ -19,14 +19,9 @@
 
     <body class="vh-100 d-flex justify-content-center text-center">
             <div class="w-75 mt-3">
-              <div class="text-black-50 text-left border-bottom mt-5">          
-                    <strong>ジム利用者 管理画面</strong><br>
-                    -従業員の皆様へ-<br>
-                    当ジムの理念 "一人一人が常識ある行動を" で本日もどうぞ宜しくお願いします<br>
-                    -本日の一言-<br>
-                    "さあ次の世界へ。常識よりも、非常識を。"<br>
-                    </div>
-              </div>
+                <div class="text-black-50 text-left border-bottom mt-5">
+                    ジム利用者 管理画面
+                </div>
 
                 <div>
                  @yield('content')

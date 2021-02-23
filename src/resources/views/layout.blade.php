@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>ジム利用者 管理画面</title>
-        <div class="text-black-50 text-left border-bottom mt-5">
-                    <strong>ジム利用者 管理画面</strong><br>
+        <div class="text-black-50 text-left border-bottom mt-5">          
                     <div class="text-black-50 text-left border-bottom mt-5">
+                    <strong>ジム利用者 管理画面</strong><br>
                     -従業員の皆様へ-<br>
                     当ジムの理念 "一人一人が常識ある行動を" で本日もどうぞ宜しくお願いします<br>
                     -本日の一言-<br>

@@ -18,9 +18,7 @@
 
     <body class="vh-100 d-flex justify-content-center text-center">
             <div class="w-75 mt-3">
-                <div class="text-black-50 text-left border-bottom mt-5">
-                    <strong>ジム利用者 管理画面</strong><br>
-                </div>
+                
 
                 <div>
                  @yield('content')

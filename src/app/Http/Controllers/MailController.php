@@ -16,3 +16,4 @@ class MailController extends Controller
        Mail::to($members)->send(new Test('臨時休業のお知らせです!'));
 
     }
+}

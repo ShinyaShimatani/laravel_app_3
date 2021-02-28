@@ -10,6 +10,12 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="{{route('mail_closed')}}" class="btn btn-primary" style="margin:20px;">臨時休業メールを一斉送信</a>
+        </div>
+    </div>
+
     <!-- table -->
     <table class="table table-striped">
 

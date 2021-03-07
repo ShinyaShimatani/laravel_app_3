@@ -26,4 +26,3 @@ Route::get('/delete', 'App\Http\Controllers\MembersController@delete')->name('de
 Route::post('/register/store', "App\Http\Controllers\FormController@store")->name("store");
 Route::get('/form', "App\Http\Controllers\FormController@show")->name("form.show");
 
-Route::get('/mail_closed', 'App\Http\Controllers\MailController@index')->name('mail_closed');

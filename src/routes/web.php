@@ -24,7 +24,8 @@ Route::get('/register', 'App\Http\Controllers\MembersController@register')->name
 Route::post('/register/store', "App\Http\Controllers\FormController@store")->name("store");
 
 Route::get('/edit', 'App\Http\Controllers\MembersController@edit')->name('edit');
-//Route::post('/update','App\Http\Controllers\MembersController@update')->name('update');
+Route::post('/update','App\Http\Controllers\MembersController@update')->name('update');
+
 Route::get('/delete', 'App\Http\Controllers\MembersController@delete')->name('delete');
 
 //Route::get('/form', "App\Http\Controllers\FormController@show")->name("form.show");

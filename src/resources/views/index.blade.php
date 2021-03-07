@@ -10,6 +10,12 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="{{route('　　　')}}" class="btn btn-primary" style="margin:20px;">アイデアを確認する</a>
+        </div>
+    </div>
+
     <!-- table -->
     <table class="table table-striped">
 

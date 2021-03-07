@@ -24,7 +24,7 @@ class MembersController extends Controller
         return view('edit',['member' => $member]);
     }
 
-    public function update(Request $request){
+    /* public function update(Request $request){
         $member = Member::find($request->id);
         
         $name = $request->validate(['name' => 'required|max:20']);
@@ -47,7 +47,7 @@ class MembersController extends Controller
         $member->fill($demand_nec)->save();
         
         return redirect()->route('index');
-    }
+    }  */
 
     public function delete(Request $request){
         $member = Member::find($request->id);

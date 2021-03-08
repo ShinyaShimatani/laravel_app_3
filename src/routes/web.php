@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use Illuminate\Http\Request;
 use App\Member;
+use App\Trainer;
 
 /*
 |--------------------------------------------------------------------------

@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Member;
 
-use App\Mail\Test;
-use Illuminate\Support\Facades\Mail;
+//use App\Mail\Test;
+//use Illuminate\Support\Facades\Mail;
 
 class MembersController extends Controller
 {

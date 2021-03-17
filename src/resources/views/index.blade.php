@@ -19,7 +19,8 @@
     <!-- table -->
     <table class="table table-striped">
 
-    　　<th>id</th>
+        <th>id</th>
+        <th>trainer_id</th>
         <th>名前</th>
         <th>性別</th>
         <th>年齢</th>
@@ -34,6 +35,7 @@
     @foreach($members as $member)
         <tr>
             <td>{{$member->id}}</td>
+            <td>{{$member->trainer_id}}</td>
             <td>{{$member->name}}</td>
             <td>{{$member->gender}}</td>
             <td>{{$member->age}}</td>

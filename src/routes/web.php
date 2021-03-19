@@ -29,7 +29,7 @@ Route::post('/update','App\Http\Controllers\MembersController@update')->name('up
 
 Route::get('/delete', 'App\Http\Controllers\MembersController@delete')->name('delete');
 
-//Route::get('/form', "App\Http\Controllers\FormController@show")->name("form.show");
+Route::get('/form', "App\Http\Controllers\FormController@show")->name("form.show");
 
 //top page -> idea page//
 Route::get('/idea', 'App\Http\Controllers\TrainersController@index')->name('idea');

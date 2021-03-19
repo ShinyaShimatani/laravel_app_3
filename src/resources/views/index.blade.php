@@ -12,7 +12,7 @@
 
     <div class="row">
         <div class="col-sm-12">
-            <a href="{{route('idea')}}" class="btn btn-primary" style="margin:20px;">アイデアを確認する</a>
+            <a href="{{route('idea')}}" class="btn btn-primary" style="margin:20px;">トレーナーからのアイデアを確認する</a>
         </div>
     </div>
 

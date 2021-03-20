@@ -21,8 +21,8 @@
   @csrf
 
   　<div class="form-group">
-    <label for="name">名前</label>
-    <input type="text" name="name" class="form-control">
+    <label for="age">名前</label>
+    <input type="text" name="age" class="form-control">
     </div>
 
     <div class="form-group" style="padding-top: 8px">

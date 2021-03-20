@@ -21,12 +21,12 @@
   @csrf
 
   　<div class="form-group">
-    <label for="age">名前</label>
+    <label for="name">名前</label>
     <input type="text" name="name" class="form-control">
     </div>
 
     <div class="form-group" style="padding-top: 8px">
-    <label for="age">性別</label><br>
+    <label for="gender">性別</label><br>
     <input id="gender-f" type="radio" name="gender" value="女性">
     <label for="gender-f">女性</label>
     <input id="gender-m" type="radio" name="gender" value="男性">

@@ -20,7 +20,7 @@ use App\Trainer;
 //top page//
 Route::get('/', 'App\Http\Controllers\MembersController@index')->name('index');
 
-//top page -> CRUD操作//
+// top page -> CRUD //
 Route::get('/register', 'App\Http\Controllers\MembersController@register')->name('register');
 Route::post('/register/store', "App\Http\Controllers\FormController@store")->name("store");
 
@@ -31,7 +31,7 @@ Route::get('/delete', 'App\Http\Controllers\MembersController@delete')->name('de
 
 Route::get('/form', "App\Http\Controllers\FormController@show")->name("form.show");
 
-//top page -> idea page//
+// top page -> idea page //
 Route::get('/idea', 'App\Http\Controllers\TrainersController@index')->name('idea');
 
 

@@ -14,7 +14,7 @@
     <table class="table table-striped">
 
     　　<th>id</th>
-        <th>名前</th>
+        <th>起案者</th>
         <th>アイデア</th>
         <th>目的</th>
         <th>要望検討</th>

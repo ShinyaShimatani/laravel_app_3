@@ -16,13 +16,14 @@ class CreateMembersTable extends Migration
         Schema::create('members', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('gender');
-            $table->string('age');
-            $table->string('disease');
-            $table->string('email');
-            $table->string('course');
-            $table->string('demand','100');
-            $table->string('demand_nec');
+            $table->integer('mimic');
+            $table->integer('maso');
+            $table->integer('pathos');
+            $table->integer('change-of-pace');
+            $table->integer('black');
+            $table->integer('volume');
+            $table->integer('energy');
+            $table->integer('insane');
             $table->timestamps();
         });
     }

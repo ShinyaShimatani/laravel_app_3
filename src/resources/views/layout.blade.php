@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>ジム利用者 管理画面</title>
+        <title>おもしろ要素 レーダーチャート</title>
         
 
         <!-- Fonts -->
@@ -20,7 +20,7 @@
     <body class="vh-100 d-flex justify-content-center text-center">
             <div class="w-75 mt-3">
                 <div class="text-black-50 text-left border-bottom mt-5">
-                    ジム利用者 管理画面
+                おもしろ要素 レーダーチャート
                 </div>
 
                 <div>

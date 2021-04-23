@@ -3,20 +3,7 @@
 @section('content')
  
  <h1>利用者一覧</h1>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <a href="{{route('register')}}" class="btn btn-primary" style="margin:20px;">利用者を新規登録する</a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <a href="{{route('idea')}}" class="btn btn-primary" style="margin:20px;">トレーナーからのアイデアを確認する</a>
-        </div>
-    </div>
-
-    <!-- table -->
+>
     <table class="table table-striped">
 
         <th>id</th>
@@ -42,9 +29,6 @@
             <td>{{$member->course}}</td>
             <td>{{$member->demand}}</td>
             <td>{{$member->demand_nec}}</td>
-
-            <td><a href="{{route('edit',['id'=>$member->id])}}">編集</a> ; 
-            <a href="{{route('delete',['id'=>$member->id])}}">削除</a></td>
         </tr>
     @endforeach
     </table>

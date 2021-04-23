@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Input;
-use App\Member;
+use App\Humor;
 use Validator;
 
 class FormController extends Controller

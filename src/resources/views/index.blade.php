@@ -8,27 +8,28 @@
 
         <th>id</th>
         <th>名前</th>
-        <th>性別</th>
-        <th>年齢</th>
-        <th>基礎疾患</th>
-        <th>メールアドレス</th>
-        <th>受講コース</th>
-        <th>当ジムへの要望</th>
-        <th>要望検討</th>
+        <th>モノマネ</th>
+        <th>自虐</th>
+        <th>哀愁</th>
+        <th>緩急</th>
+        <th>ブラックジョーク</th>
+        <th>声量</th>
+        <th>熱量</th>
+        <th>狂気</th>
 
-        <th>処理</th>
     <!-- loop -->
     @foreach($members as $member)
         <tr>
             <td>{{$member->id}}</td>
             <td>{{$member->name}}</td>
-            <td>{{$member->gender}}</td>
-            <td>{{$member->age}}</td>
-            <td>{{$member->disease}}</td>
-            <td>{{$member->email}}</td>
-            <td>{{$member->course}}</td>
-            <td>{{$member->demand}}</td>
-            <td>{{$member->demand_nec}}</td>
+            <td>{{$member->mimic}}</td>
+            <td>{{$member->maso}}</td>
+            <td>{{$member->pathos}}</td>
+            <td>{{$member->change-of-pace}}</td>
+            <td>{{$member->black}}</td>
+            <td>{{$member->volume}}</td>
+            <td>{{$member->energy}}</td>
+            <td>{{$member->insane}}</td>
         </tr>
     @endforeach
     </table>

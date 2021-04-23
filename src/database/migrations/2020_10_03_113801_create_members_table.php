@@ -24,6 +24,7 @@ class CreateMembersTable extends Migration
             $table->integer('volume');
             $table->integer('energy');
             $table->integer('insane');
+            $table->string('color');
             $table->timestamps();
         });
     }

@@ -19,7 +19,7 @@ class CreateMembersTable extends Migration
             $table->integer('mimic');
             $table->integer('maso');
             $table->integer('pathos');
-            $table->integer('change-of-pace');
+            $table->integer('updown');
             $table->integer('black');
             $table->integer('volume');
             $table->integer('energy');

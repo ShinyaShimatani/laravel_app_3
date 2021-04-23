@@ -25,7 +25,7 @@
             <td>{{$member->mimic}}</td>
             <td>{{$member->maso}}</td>
             <td>{{$member->pathos}}</td>
-            <td>{{$member->change-of-pace}}</td>
+            <td>{{$member->updown}}</td>
             <td>{{$member->black}}</td>
             <td>{{$member->volume}}</td>
             <td>{{$member->energy}}</td>

@@ -46,7 +46,7 @@ if( !empty($_POST["shurui"]) ){ $shurui=$_POST["shurui"]; }
 	<div style="">
 		<div style="width:120px;height:auto;"><a href="https://chikaraemon.com/"><img src="logo.jpg"></a></div>
 	</div>
-    <h1 class="text-primary my-3">Chart.js PHP mySQLでコーンフレークの栄養価をレーダーチャートで表現 </h1>
+    <h1 class="text-primary my-3">いろんな人々の面白要素をレーダーチャートで表現。探してみよう、あなたも求めるユーモアを。 </h1>
 	<div class="row">
 		<div class="col-md-5">
             <form method="POST" anction="<?= $_SERVER['SCRIPT_NAME'] ?>" class="my-3">
@@ -58,8 +58,8 @@ if( !empty($_POST["shurui"]) ){ $shurui=$_POST["shurui"]; }
                 <input type="submit" value="グラフ種類を変える" class="btn btn-primary">
             </form>
  
-            <div class="text-sm">※数値100が各栄養素の朝食時の必要量の目安を表しています。</div>
-            <div class="text-sm">※ケロッグ様ホームページのグラフを目視で読み取った為、数値に誤差が有ります。<BR>ご容赦ください。</div>
+            <div class="text-sm">※面白要素は独断と偏見で設定しております。修正する場合も大いにあります。</div>
+            <div class="text-sm"><BR>ご容赦ください。</div>
 		</div>
 		<div class="col-md-7">	
             <!--以下　グラフ-->
@@ -77,9 +77,7 @@ if( !empty($_POST["shurui"]) ){ $shurui=$_POST["shurui"]; }
             <!--以上　グラフ-->
 		</div>
 	</div>
-	<div style="font-size:1.2rem;text-align:center;margin:2rem;">
-		<a href="https://chikaraemon.com/">ちからえもん　ブログ</a>
-	</div>
+	
 </div>
 </body>
 </html>

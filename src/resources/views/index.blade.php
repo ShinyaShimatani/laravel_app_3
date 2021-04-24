@@ -1,7 +1,3 @@
-@extends('layout')
-
-@section('content')
-
 <?php
 $connect = new PDO("mysql:host=localhost;dbname=test;charset=utf8;",  'root',  'password' );
 if(!$connect){
@@ -87,5 +83,3 @@ if( !empty($_POST["shurui"]) ){ $shurui=$_POST["shurui"]; }
 </div>
 </body>
 </html>
-
-@endsection

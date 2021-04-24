@@ -1,5 +1,5 @@
 <?php
-$connect = new PDO("mysql:host=localhost;dbname=default;charset=utf8;",  'default',  'secret' );
+$connect = new PDO("mysql:host=mysql;dbname=default;charset=utf8;",  'default',  'secret' );
 if(!$connect){
     echo "データベースに接続できません";
 }

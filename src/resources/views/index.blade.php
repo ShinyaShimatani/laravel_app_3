@@ -3,7 +3,7 @@ $connect = new PDO("mysql:host=mysql;dbname=default;charset=utf8;",  'default', 
 if(!$connect){
     echo "データベースに接続できません";
 }
-$sql="SELECT id, name, cal, fe, vit_a, vit_b1, vit_b2, niacin, vit_c, vit_d, color FROM kellogg_table ORDER BY id";   
+$sql="SELECT id, name, mimic, maso, pathos, updown, black, volume, energy, insane, color FROM members ORDER BY id";   
 $stmt = $connect->prepare($sql);
 $stmt->execute(); 
 $data= "";

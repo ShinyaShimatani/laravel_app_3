@@ -17,7 +17,7 @@ use App\Humor;
 */
 
 //top page//
-Route::get('/', 'App\Http\Controllers\MembersController@index')->name('index');
+Route::get('/', 'App\Http\Controllers\MembersController@show')->name('show_chart');
 
 // top page -> CRUD //
 Route::get('/register', 'App\Http\Controllers\MembersController@register')->name('register');
